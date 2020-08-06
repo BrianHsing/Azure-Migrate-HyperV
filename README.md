@@ -9,6 +9,7 @@
     - 輸入`Connect-AzAccount` 登入<br>
 	- 上傳 Single-Hyper-V.ps1<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/cloudshell-uploadps1.PNG "cloudshell-uploadps1")
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/upload-succsess.PNG "upload-succsess")
  - 設定客體虛擬機器的網際網路連線 (5分鐘)<br> 
  - 在 hyperv 虛擬機器中下載 VHD (5分鐘)<br>
 	- 下載 Linux-AP - https://aka.ms/vhd-linux-ap<br>
