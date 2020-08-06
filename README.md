@@ -2,7 +2,7 @@
  透過Azure VM巢狀虛擬化建立單一Hyper-V主機，利用Azure Migrate輕鬆地將虛擬機器搬遷至Azure
 
 <h1>環境準備</h1><br>
- <h2>√Azure訂用帳戶、Azure Subscription owner role</h2><br>
+ <h3>√Azure訂用帳戶、Azure Subscription owner role</h3><br>
  √下載Single-Hyper-V.ps1
  √使用Single-Hyper-V.ps1佈署Hyper-V Server(21分鐘)<br> 
  √設定客體虛擬機器的網際網路連線(5分鐘)<br> 
