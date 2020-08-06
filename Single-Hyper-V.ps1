@@ -31,7 +31,7 @@ $pip = New-AzPublicIpAddress -ResourceGroupName $resourceGroup -Location $locati
 $nic = New-AzNetworkInterface -Name $vmName-Nic -ResourceGroupName $resourceGroup -Location $location `
   -SubnetId $virtualNetwork.Subnets[0].Id -PublicIpAddressId $pip.Id
 #Create a virtual machine configuration
-$vmConfig = New-AzVMConfig -VMName $vmName -VMSize Standard_D8_v3 | `
+$vmConfig = New-AzVMConfig -VMName $vmName -VMSize Standard_D8s_v3 | `
 Set-AzVMOperatingSystem -Windows -ComputerName $vmName -Credential $Credential | `
 Set-AzVMSourceImage -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2019-Datacenter -Version latest | `
 Add-AzVMNetworkInterface -Id $nic.Id
