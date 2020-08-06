@@ -21,7 +21,7 @@
  - 在虛擬機器 hyperv 中下載 VHD (5分鐘)<br>
 	- 下載 Linux-AP - https://aka.ms/vhd-linux-ap<br>
 	- 下載 win2k16-AP - https://aka.ms/vhd-win2k16-ap<br>
-	> **bold** tips.建議關閉 IE Enhanced Security Configuration <br>
+	> **tips.建議關閉 IE Enhanced Security Configuration** <br>
  - 匯入 Linux Server<br>
  - 匯入 Windows Server<br>
 
