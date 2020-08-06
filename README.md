@@ -6,7 +6,7 @@
  - 下載 Single-Hyper-V.ps1<br>
  - 使用 Single-Hyper-V.ps1 佈署 Hyper-V Server (21分鐘)<br> 
 	- 啟用 CloudShell<br>
-    - `輸入`Connect-AzAccount` 登入<br>
+    - 輸入`Connect-AzAccount` 登入<br>
  - 設定客體虛擬機器的網際網路連線 (5分鐘)<br> 
  - 在 hyperv 虛擬機器中下載 VHD (5分鐘)<br>
 	- Linux-AP - https://aka.ms/vhd-linux-ap<br>
