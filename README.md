@@ -7,8 +7,8 @@
 √ 使用Single-Hyper-V.ps1佈署Hyper-V Server(21分鐘)<br> 
 √ 設定客體虛擬機器的網際網路連線(5分鐘)<br> 
 √ 在hyperv虛擬機器中下載VHD<br>
-Linux-AP<a>https://aka.ms/vhd-linux-ap</a><br>
-win2k16-AP<a>https://aka.ms/vhd-win2k16-ap</a><br><br>
+   Linux-AP - <a>https://aka.ms/vhd-linux-ap</a><br>
+   win2k16-AP - <a>https://aka.ms/vhd-win2k16-ap</a><br>
 √ 匯入Linux Server<br>
 √ 匯入Windows Server<br>
 
