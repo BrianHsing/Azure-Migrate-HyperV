@@ -24,8 +24,15 @@
 	> **Tips.建議關閉 IE Enhanced Security Configuration** <br>
  - 開啟 Hyper-V Manager
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/open-hyper-v-manamge-import.PNG "open-hyper-v-manamge-import")	
- - 匯入 Linux Server<br>
- - 匯入 Windows Server<br>
+ - 選擇 Import Virtual Machine 匯入 Linux Server<br>
+ 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import1.PNG "import1")	
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import2.PNG "import2")	
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import3.PNG "import3")	
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import4.PNG "import4")	
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import5.PNG "import5")	
+ - 選擇 Import Virtual Machine 匯入 Windows Server<br>
+	- 如上述步驟一致，只要改選擇win2k16-ap資料夾即可<br>
+ - 前置環境作業完成<br>
 
 <h1>遷移流程</h1><br>
  - 建立 Azure Migrate<br>
