@@ -22,6 +22,8 @@
 	- 下載 Linux-AP 並解壓縮  https://aka.ms/vhd-linux-ap<br>
 	- 下載 win2k16-AP 並解壓縮  https://aka.ms/vhd-win2k16-ap<br>
 	> **Tips.建議關閉 IE Enhanced Security Configuration** <br>
+ - 開啟 Hyper-V Manager
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/open-hyper-v-manamge-import.PNG "open-hyper-v-manamge-import")	
  - 匯入 Linux Server<br>
  - 匯入 Windows Server<br>
 
