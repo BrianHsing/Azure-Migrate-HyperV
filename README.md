@@ -11,7 +11,7 @@
  - 下載 Single-Hyper-V.ps1<br>
 	- 此命令會建立D8v3的虛擬機器、虛擬網路、堡壘<br>
  - 下載 Azure-Migrate-Basic.ps1<br>
-	- 此命令會建立遷移後虛擬機器的虛擬網路、公用 IP、網路安全性群組，遷移流程中使用<br>
+	- 此命令會建立遷移後虛擬機器的虛擬網路、公用 IP、網路安全性群組，後續會在遷移流程中使用<br>
  - 使用 Single-Hyper-V.ps1 佈署 Hyper-V Server <br> 
 	- 啟用 CloudShell<br>
     - 輸入`Connect-AzAccount` 登入<br>
