@@ -3,8 +3,7 @@
 
 <h1>環境準備</h1><br>
  <h4>Azure訂用帳戶、Azure Subscription owner role</h4><br>
- 
- √下載Single-Hyper-V.ps1
+ <h5>下載Single-Hyper-V.ps1</h5><br>
  √使用Single-Hyper-V.ps1佈署Hyper-V Server(21分鐘)<br> 
  √設定客體虛擬機器的網際網路連線(5分鐘)<br> 
  √在hyperv虛擬機器中下載VHD<br>
