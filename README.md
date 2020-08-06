@@ -5,8 +5,8 @@
  - Azure訂用帳戶、Azure訂用帳戶擁有者權限<br>
  - 下載Single-Hyper-V.ps1<br>
  - 使用Single-Hyper-V.ps1佈署Hyper-V Server (21分鐘)<br> 
-	- 啟用CloudShell
-    輸入Connect-AzAccount登入
+	- 啟用CloudShell<br>
+    輸入Connect-AzAccount登入<br>
  - 設定客體虛擬機器的網際網路連線 (5分鐘)<br> 
  - 在hyperv虛擬機器中下載VHD (5分鐘)<br>
 	- Linux-AP - https://aka.ms/vhd-linux-ap<br>
