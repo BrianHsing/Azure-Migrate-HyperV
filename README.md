@@ -31,6 +31,7 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/networking-setting2.PNG "networking-setting2")
  - 在虛擬機器 hyperv 中下載 VHD <br>
 	- 下載 Linux-AP 並解壓縮  https://aka.ms/vhd-linux-ap<br>
+	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/Extract.PNG "Extract")
 	- 下載 win2k16-AP 並解壓縮  https://aka.ms/vhd-win2k16-ap<br>
 	> **Tips.建議關閉 IE Enhanced Security Configuration** <br>
  - 開啟 Hyper-V Manager
