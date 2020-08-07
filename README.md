@@ -61,13 +61,22 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addassessment.PNG "addassessment")	
  	- 選擇 Azure Migrate: Server Migration
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateTool.PNG "addMigrateTool")	
- 	- 檢閱無誤後，點選新增工具<br>
+ 	- 檢閱無誤後，點選新增工具建立<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")
 	
  - 準備評估 Hyper-V VM<br>
 	- 點選發現
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/discovery.PNG "discovery")
 	- 選擇「是，使用 Hyper-V」，點選下載.VHD檔案
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/selectHypervanddownload.PNG "selectHypervanddownload")
 	- 解壓縮 AzureMigrateAppliance.zip，在 Hyper-V Manager 選擇 Import Virtual Machine 匯入
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama1.PNG "importama1")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama2.PNG "importama2")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama3.PNG "importama3")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama4.PNG "importama4")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama5.PNG "importama5")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeimportama.PNG "completeimportama")
+
 	- 開啟
  - 準備遷移 Hyper-V VM<br>
 
