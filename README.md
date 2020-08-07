@@ -90,18 +90,26 @@
 		- Provide Hyper-V hosts details<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addhosts.PNG "addhosts")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeAM.PNG "completeAM")
-		- 設定評估
-		- 檢閱評量
-			- Azure 移轉整備程度
-			- 每月成本預估
-			- 每月儲存體成本預估
+		- 設定評估<br>
+			- 在伺服器項目中，選擇評定<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentClick.PNG "assessmentClick")
+			- 評定基本設定，輸入評定名稱「ServerAssessment」。點選「檢視全部」，更改目標位置為「日本東部」，保留的執行個體更改為「沒有任何保留的執行個體」，全選所有虛擬機器規格<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentBasic.PNG "assessmentBasic")
+			- 輸入群組名稱「ServerGroup」，勾選 linux-ap、Win2k16-AP<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentSelect.PNG "assessmentSelect")
+			- 建立評定<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentCreate.PNG "assessmentCreate")
+		- 檢閱評量<br>
+			- Azure 移轉整備程度<br>
+			- 每月成本預估<br>
+			- 每月儲存體成本預估<br>
  - 準備移轉 Hyper-V VM<br>
-	- 下載並安裝 AzureSiteRecoveryProvider
-	- 下載 Register Key
-	- 設定 AzureSiteRecoveryProvider
-	- 複寫 Hyper-V VM
-	- 執行測試移轉
-	- 移轉 VM
-	- 完成移轉
+	- 下載並安裝 AzureSiteRecoveryProvider<br>
+	- 下載 Register Key<br>
+	- 設定 AzureSiteRecoveryProvider<br>
+	- 複寫 Hyper-V VM<br>
+	- 執行測試移轉<br>
+	- 移轉 VM<br>
+	- 完成移轉<br>
 	
 
