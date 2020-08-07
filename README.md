@@ -162,7 +162,7 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting17.PNG "replicationSetting17")
 		- 完成測試移轉後，請在「正在複寫的機器」頁面中，點選「...」，選擇「清除測試移轉」，勾選「測試已完成。請刪除測試虛擬機器。」，最後點選「清除測試」<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting18.PNG "replicationSetting18")
-		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting19.PNG "replicationSetting19")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting20.PNG "replicationSetting20")
 	- 移轉 VM<br>
 	- 完成移轉<br>
 	
