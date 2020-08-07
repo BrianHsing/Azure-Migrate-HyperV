@@ -150,7 +150,9 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting11.PNG "replicationSetting11")
 		- 點選「編輯」後，再點選「InternalNAT」，將私人 IP 位置輸入 192.168.0.5 後，點選「確定」，完成後點選「儲存」<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting12.PNG "replicationSetting12")
-
+		- 您現在可以開始進行測試移轉，測試移轉可以讓您不停機的狀況下，測試移轉後的結果是否符合預期。現在就按下「測試移轉」吧!<br>
+			- 虛擬網路請選擇「vNet」後，按下「測試移轉」<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting13.PNG "replicationSetting13")
 	- 移轉 VM<br>
 	- 完成移轉<br>
 	
