@@ -26,7 +26,7 @@
 	- 進入 Azure Portal，選擇虛擬機器 hyperv，使用 Bastion 連線 (hyadmin/hyadmin@123) <br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/connect-vm-with-bastion.PNG "connect-vm-with-bastion")
 	- 開啟 `VMs-Networking-Config.ps1` 並全選複製指令 <br>
-	- 開啟 Powershell 貼上指令執行
+	- 開啟 Powershell 貼上指令執行<br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/networking-setting1.PNG "networking-setting1")
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/networking-setting2.PNG "networking-setting2")
  - 在虛擬機器 hyperv 中下載 VHD <br>
@@ -34,7 +34,7 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/Extract.PNG "Extract")
 	- 下載 win2k16-AP 並解壓縮  https://aka.ms/vhd-win2k16-ap<br>
 	> **Tips.建議關閉 IE Enhanced Security Configuration** <br>
- - 開啟 Hyper-V Manager
+ - 開啟 Hyper-V Manager<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/open-hyper-v-manamge-import.PNG "open-hyper-v-manamge-import")	
  - 選擇 Import Virtual Machine 匯入 Linux Server (isadmin/isadmin@123)<br>
  	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import1.PNG "import1")	
@@ -53,13 +53,13 @@
 
 ## 遷移流程 <br>
  - 建立 Azure Migrate<br>
-	- 進入 Azure Migrate 選擇移轉目標為伺服器，點選新增工具
+	- 進入 Azure Migrate 選擇移轉目標為伺服器，點選新增工具<br>
  	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/Create-Migrate-Tool.PNG "Create-Migrate-Tool")	
- 	- 新增移轉專案 AzureMigrateProject 地理選擇日本
+ 	- 新增移轉專案 AzureMigrateProject 地理選擇日本<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateProject.PNG "addMigrateProject")	
-	- 選擇 Azure Migrate: Server Assessment
+	- 選擇 Azure Migrate: Server Assessment<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addassessment.PNG "addassessment")	
- 	- 選擇 Azure Migrate: Server Migration
+ 	- 選擇 Azure Migrate: Server Migration<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateTool.PNG "addMigrateTool")	
  	- 檢閱無誤後，點選新增工具建立<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")
@@ -67,26 +67,26 @@
  - 準備評估 Hyper-V VM<br>
 	- 點選發現<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/discovery.PNG "discovery")
-	- 選擇「是，使用 Hyper-V」，點選下載.VHD檔案
+	- 選擇「是，使用 Hyper-V」，點選下載.VHD檔案<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/selectHypervanddownload.PNG "selectHypervanddownload")
-	- 解壓縮 AzureMigrateAppliance.zip，在 Hyper-V Manager 選擇 Import Virtual Machine 匯入
+	- 解壓縮 AzureMigrateAppliance.zip，在 Hyper-V Manager 選擇 Import Virtual Machine 匯入<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama1.PNG "importama1")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama2.PNG "importama2")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama3.PNG "importama3")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama4.PNG "importama4")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama5.PNG "importama5")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeimportama.PNG "completeimportama")
-	- 初始化設定 AzureMigrateAppliance_v3.20.05.27 (administrator/isadmin@123)
+	- 初始化設定 AzureMigrateAppliance_v3.20.05.27 (administrator/isadmin@123)<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/licenseTerms.PNG "licenseTerms")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/customizeSetting.PNG "customizeSetting")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/ama-networking-setting.PNG "ama-networking-setting")
-	- Set up discovery for Azure Migrate
-		- Set up prerequisites，勾選 Accepted license terms，輸入 Credentials (administrator/isadmin@123)
+	- Set up discovery for Azure Migrate<br>
+		- Set up prerequisites，勾選 Accepted license terms，輸入 Credentials (administrator/isadmin@123)<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/windowsSecurity.PNG "windowsSecurity")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completePrep.PNG "completePrep")
 		- Register with Azure Migrate<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/registerAM.PNG "registerAM")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/providehost.PNG "providehost")
-		- Provide Hyper-V hosts details
+		- Provide Hyper-V hosts details<br>
  - 準備遷移 Hyper-V VM<br>
 
