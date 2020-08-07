@@ -22,14 +22,12 @@ $virtualNetwork | Set-AzVirtualNetwork
 
 #建立Hyper-V VM
 $User = "hyadmin"
-$PWord = ConvertTo-SecureString -String "hyadmin@123" -AsPlainText -Force
+$PWord = ConvertTo-SecureString -String "hyadmin@1234" -AsPlainText -Force
 $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $User, $PWord
-#Create a public IP address and specify a DNS name
+#Create a virtual Network
 $virtualNetwork = Get-AzVirtualNetwork -Name $vmName-VN -ResourceGroupName $resourceGroup 
-$pip = New-AzPublicIpAddress -ResourceGroupName $resourceGroup -Location $location `
-  -Name $vmName-pip -AllocationMethod Static -Sku Standard
 $nic = New-AzNetworkInterface -Name $vmName-Nic -ResourceGroupName $resourceGroup -Location $location `
-  -SubnetId $virtualNetwork.Subnets[0].Id -PublicIpAddressId $pip.Id
+  -SubnetId $virtualNetwork.Subnets[0].Id 
 #Create a virtual machine configuration
 $vmConfig = New-AzVMConfig -VMName $vmName -VMSize Standard_D8s_v3 | `
 Set-AzVMOperatingSystem -Windows -ComputerName $vmName -Credential $Credential | `
@@ -44,7 +42,7 @@ $publicip = New-AzPublicIpAddress `
 -name $vmName-Bation-ip `
 -location $location `
 -AllocationMethod "Static" `
--Sku Standard
+-Sku Standard 
 New-AzBastion `
 -ResourceGroupName $resourceGroup `
 -Name $vmName-Bation `
