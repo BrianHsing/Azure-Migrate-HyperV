@@ -23,7 +23,7 @@
 	- 上傳 Azure-Migrate-Basic.ps1<br>
 	- 輸入並執行 `./Azure-Migrate-Basic.ps1` <br>
  - 設定客體虛擬機器的網際網路連線<br>
-	- 進入 Azure Portal，選擇虛擬機器 hyperv，使用 Bastion 連線 (hyadmin/hyadmin@123) <br>
+	- 進入 Azure Portal，選擇虛擬機器 hyperv，使用 Bastion 連線 (hyadmin/hyadmin@1234) <br>
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/connect-vm-with-bastion.PNG "connect-vm-with-bastion")
 	- 開啟 `VMs-Networking-Config.ps1` 並全選複製指令 <br>
 	- 開啟 Powershell 貼上指令執行<br>
