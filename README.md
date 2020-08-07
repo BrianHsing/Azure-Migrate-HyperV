@@ -62,7 +62,8 @@
  	- 選擇 Azure Migrate: Server Migration
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateTool.PNG "addMigrateTool")	
  	- 檢閱無誤後，點選新增工具
-	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")	
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")
+	
  - 準備評估 Hyper-V VM<br>
 	- 點選發現
 	- 選擇「是，使用 Hyper-V」，點選下載.VHD檔案
