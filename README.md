@@ -1,12 +1,12 @@
 # Azure Server Migrate on Hyper-V
  透過 Azure VM 巢狀虛擬化建立單一 Hyper-V 主機，利用 Azure Migrate 輕鬆地將虛擬機器搬遷至 Azure。<br>
- 完成此 Lab 您將學會：<br>
+ 您大約需要花費75分鐘完成此 Lab 您將學會：<br>
  - 學會在 Azure 模擬內部部署 Hyper-V 環境<br>
  - 學會建立 Azure Migrate 專案
  - 學會使用 Azure Migrate Assessment Tool 參考產出的報表預估每月費用與虛擬機器規格<br>
  - 學會使用 Azure Migrate Tool 一系列的複寫、測試移轉、正式移轉等流程<br>
 
-## 環境準備 (約30-40分鐘完成)<br>
+## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
  - 下載 Single-Hyper-V.ps1<br>
 	- 此命令會建立D8v3的虛擬機器、虛擬網路、堡壘<br>
