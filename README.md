@@ -9,7 +9,7 @@
 ## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
  - 下載 Single-Hyper-V.ps1<br>
-	- 此命令會建立D8v3的虛擬機器、虛擬網路、堡壘<br>
+	- 此命令會建立D8sv3的虛擬機器、虛擬網路、堡壘<br>
  - 下載 Azure-Migrate-Basic.ps1<br>
 	- 此命令會建立移轉後虛擬機器的虛擬網路、公用 IP、網路安全性群組，後續會在移轉流程中使用<br>
  - 使用 Single-Hyper-V.ps1 佈署 Hyper-V Server <br> 
@@ -153,6 +153,13 @@
 		- 您現在可以開始進行測試移轉，測試移轉可以讓您不停機的狀況下，測試移轉後的結果是否符合預期。現在就按下「測試移轉」吧!<br>
 			- 虛擬網路請選擇「vNet」後，按下「測試移轉」<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting13.PNG "replicationSetting13")
+			- 查看測試移轉作業，圖示中狀態顯示順利測試移轉<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting14.PNG "replicationSetting14")
+		- 尋找並點選資源群組「serverMigrate」，您會發現您的虛擬機器名稱為「win2k16-AP-test」，代表為測試移轉的虛擬機器，第一次容錯移轉時您必須手動將基礎設施關聯，等等我們將把公用 IP 關聯至網路介面，後續再做移轉就會自動套用，請注意，您的公用 IP 與我不同<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting15")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting16")
+		- 現在讓我們在瀏覽器上，輸入公用 IP，檢查是否有正常顯示，如下圖所示，確認服務正常運作!<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting16")
 	- 移轉 VM<br>
 	- 完成移轉<br>
 	
