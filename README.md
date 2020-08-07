@@ -45,8 +45,10 @@
  - 選擇 Import Virtual Machine 匯入 Windows Server (administrator/isadmin@123)<br>
 	- 如上述步驟一致，只要改選擇win2k16-ap資料夾即可<br>
  - 前置環境作業完成<br>
-  	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImport.PNG "completeImport")	
- 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImportAP.PNG "completeImportAP")	
+  	- 確認已建立兩台 VM
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImport.PNG "completeImport")	
+ 	- 確認能正常顯示 Apache、IIS Web
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImportAP.PNG "completeImportAP")	
 
 
 ## 遷移流程 <br>
