@@ -46,8 +46,13 @@
 	- 如上述步驟一致，只要改選擇win2k16-ap資料夾即可<br>
  - 前置環境作業完成<br>
 
-<h1>遷移流程</h1><br>
+## 遷移流程 <br>
  - 建立 Azure Migrate<br>
+ 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/Create-Migrate-Tool.PNG "Create-Migrate-Tool")	
+ 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateProject.PNG "addMigrateProject")	
+ 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addassessment.PNG "addassessment")	
+ 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateTool.PNG "addMigrateTool")	
+ 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")	
  - 準備評估 Hyper-V VM<br>
  - 準備遷移 Hyper-V VM<br>
 
