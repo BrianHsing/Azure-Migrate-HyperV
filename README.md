@@ -11,7 +11,7 @@
  - 下載 Single-Hyper-V.ps1<br>
 	- 此命令會建立D8v3的虛擬機器、虛擬網路、堡壘<br>
  - 下載 Azure-Migrate-Basic.ps1<br>
-	- 此命令會建立遷移後虛擬機器的虛擬網路、公用 IP、網路安全性群組，後續會在遷移流程中使用<br>
+	- 此命令會建立移轉後虛擬機器的虛擬網路、公用 IP、網路安全性群組，後續會在移轉流程中使用<br>
  - 使用 Single-Hyper-V.ps1 佈署 Hyper-V Server <br> 
 	- 啟用 CloudShell<br>
     - 輸入`Connect-AzAccount` 登入<br>
@@ -19,7 +19,7 @@
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/cloudshell-uploadps1.PNG "cloudshell-uploadps1")
 	  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/upload-success.PNG "upload-succsess")
 	- 輸入並執行 `./Single-Hyper-V.ps1` <br>
- - 使用 Azure-Migrate-Basic.ps1 佈署遷移基礎環境 <br> 
+ - 使用 Azure-Migrate-Basic.ps1 佈署移轉基礎環境 <br> 
 	- 上傳 Azure-Migrate-Basic.ps1<br>
 	- 輸入並執行 `./Azure-Migrate-Basic.ps1` <br>
  - 設定客體虛擬機器的網際網路連線<br>
@@ -51,7 +51,7 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImportAP.PNG "completeImportAP")	
 
 
-## 遷移流程 <br>
+## 移轉流程 <br>
  - 建立 Azure Migrate<br>
 	- 進入 Azure Migrate 選擇移轉目標為伺服器，點選新增工具<br>
  	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/Create-Migrate-Tool.PNG "Create-Migrate-Tool")	
@@ -88,5 +88,18 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/registerAM.PNG "registerAM")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/providehost.PNG "providehost")
 		- Provide Hyper-V hosts details<br>
- - 準備遷移 Hyper-V VM<br>
+		- 設定評估
+		- 檢閱評量
+			- Azure 移轉整備程度
+			- 每月成本預估
+			- 每月儲存體成本預估
+ - 準備移轉 Hyper-V VM<br>
+	- 下載並安裝 AzureSiteRecoveryProvider
+	- 下載 Register Key
+	- 設定 AzureSiteRecoveryProvider
+	- 複寫 Hyper-V VM
+	- 執行測試移轉
+	- 移轉 VM
+	- 完成移轉
+	
 
