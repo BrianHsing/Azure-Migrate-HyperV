@@ -65,9 +65,9 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")
 	
  - 準備評估 Hyper-V VM<br>
-	- 點選發現<br>
+	- 點選「發現」<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/discovery.PNG "discovery")
-	- 選擇「是，使用 Hyper-V」，點選下載.VHD檔案<br>
+	- 選擇「是，使用 Hyper-V」，點選「下載」.VHD檔案<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/selectHypervanddownload.PNG "selectHypervanddownload")
 	- 解壓縮 AzureMigrateAppliance.zip，在 Hyper-V Manager 選擇 Import Virtual Machine 匯入<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama1.PNG "importama1")
@@ -91,7 +91,7 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addhosts.PNG "addhosts")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeAM.PNG "completeAM")
 		- 設定評估<br>
-			- 在伺服器項目中，選擇評定<br>
+			- 在伺服器項目中，選擇「評定」<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentClick.PNG "assessmentClick")
 			- 評定基本設定，輸入評定名稱「ServerAssessment」。點選「檢視全部」，更改目標位置為「日本東部」，保留的執行個體更改為「沒有任何保留的執行個體」，全選所有虛擬機器規格<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentBasic.PNG "assessmentBasic")
@@ -110,7 +110,7 @@
 			- 觀察win2k16-ap的規格推薦、每月成本預估、目前使用量等詳細資訊<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentView5.PNG "assessmentView5")
  - 準備移轉 Hyper-V VM<br>
-	- 在移轉工具 Azure Migrate: Server Migrate窗格中選擇發現
+	- 在移轉工具 Azure Migrate: Server Migrate窗格中選擇「發現」
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateDiscovery.PNG "migrateDiscovery")
 	- 您的電腦虛擬化了嗎?選擇「是，使用 Hyper-V」，目標區域選擇「日本東部」，勾選確認移轉目標區域為"日本東部"<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateCreateResorce.PNG "migrateCreateResorce")
