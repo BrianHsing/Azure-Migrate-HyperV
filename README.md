@@ -157,9 +157,9 @@
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting14.PNG "replicationSetting14")
 		- 尋找並點選資源群組「serverMigrate」，您會發現您的虛擬機器名稱為「win2k16-AP-test」，代表為測試移轉的虛擬機器，第一次容錯移轉時您必須手動將基礎設施關聯，等等我們將把公用 IP 關聯至網路介面，後續再做移轉就會自動套用，請注意，您的公用 IP 與我不同<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting15")
-		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting16")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting16.PNG "replicationSetting16")
 		- 現在讓我們在瀏覽器上，輸入公用 IP，檢查是否有正常顯示，如下圖所示，確認服務正常運作!<br>
-		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting16")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting17.PNG "replicationSetting17")
 	- 移轉 VM<br>
 	- 完成移轉<br>
 	
