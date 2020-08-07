@@ -88,6 +88,8 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/registerAM.PNG "registerAM")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/providehost.PNG "providehost")
 		- Provide Hyper-V hosts details<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addhosts.PNG "addhosts")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeAM.PNG "completeAM")
 		- 設定評估
 		- 檢閱評量
 			- Azure 移轉整備程度
