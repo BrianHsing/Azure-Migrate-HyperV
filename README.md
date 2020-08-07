@@ -110,8 +110,18 @@
 			- 觀察win2k16-ap的規格推薦、每月成本預估、目前使用量等詳細資訊<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentView5.PNG "assessmentView5")
  - 準備移轉 Hyper-V VM<br>
-	- 下載 Register Key 並安裝設定 AzureSiteRecoveryProvider、<br>
+	- 在移轉工具 Azure Migrate: Server Migrate窗格中選擇發現
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateDiscovery.PNG "migrateDiscovery")
+	- 您的電腦虛擬化了嗎?選擇「是，使用 Hyper-V」，目標區域選擇「日本東部」，勾選確認移轉目標區域為"日本東部"<br>
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateCreateResorce.PNG "migrateCreateResorce")
+	- 下載 Register Key 並安裝設定 AzureSiteRecoveryProvider<br>
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateDownload.PNG "migrateDownload")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateInstall.PNG "migrateInstall")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateRegister.PNG "migrateRegister")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateNonproxy.PNG "migrateNonproxy")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateFinish.PNG "migrateFinish")
 	- 完成註冊<br>
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateFinishenroll.PNG "migrateFinishenroll")
 	- 複寫 Hyper-V VM<br>
 	- 執行測試移轉<br>
 	- 移轉 VM<br>
