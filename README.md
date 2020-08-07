@@ -76,7 +76,15 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama4.PNG "importama4")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama5.PNG "importama5")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeimportama.PNG "completeimportama")
-
-	- 開啟
+	- 初始化設定 AzureMigrateAppliance_v3.20.05.27
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/licenseTerms.PNG "licenseTerms")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/customizeSetting.PNG "customizeSetting")
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/ama-networking-setting.PNG "ama-networking-setting")
+	- Set up discovery for Azure Migrate
+		- Set up prerequisites，勾選 Accepted license terms，輸入 Credentials (administrator/isadmin@123)
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/windowsSecurity.PNG "windowsSecurity")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completePrep.PNG "completePrep")
+		- Register with Azure Migrate
+		- Provide Hyper-V hosts details
  - 準備遷移 Hyper-V VM<br>
 
