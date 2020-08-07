@@ -183,5 +183,5 @@
 恭喜您已經完成了，但移轉後還是有些工作要做，後續工作您可以參考官方文件說明「移轉後的最佳做法」<br>
 https://docs.microsoft.com/zh-tw/azure/migrate/tutorial-migrate-hyper-v#post-migration-best-practices
 
-**參考來源**
+**參考來源與更詳細的說明**
 https://docs.microsoft.com/zh-tw/azure/migrate/tutorial-prepare-hyper-v
