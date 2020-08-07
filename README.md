@@ -3,8 +3,8 @@
  您大約需要花費 75 分鐘完成此 Lab，透過手把手教學您將學會：<br>
  - 學會在 Azure 模擬內部部署 Hyper-V 環境<br>
  - 學會建立 Azure Migrate 專案<br>
- - 學會使用 Azure Migrate Assessment Tool 參考產出的報表預估每月費用與虛擬機器規格<br>
- - 學會使用 Azure Migrate Tool 一系列的複寫、測試移轉、正式移轉等流程<br>
+ - 學會操作 Azure Migrate Assessment Tool 參考產出的報表預估每月費用與虛擬機器規格<br>
+ - 學會操作 Azure Migrate Tool 一系列的複寫、測試移轉、正式移轉等流程<br>
 
 ## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
@@ -146,7 +146,7 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting9.PNG "replicationSetting9")
 		- 點選一般類別中的「計算與網路」<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting10.PNG "replicationSetting10")
-		- 因為模擬環境中win2k16-ap的內部靜態 IP 為 192.168.0.5，再不變更OS內的網路設定下，必須要設定移轉後的靜態 IP<br>
+		- 因為模擬環境中win2k16-ap的內部靜態 IP 為 192.168.0.5，不變更OS內的網路設定下，必須要設定移轉後的靜態 IP<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting11.PNG "replicationSetting11")
 		- 點選「編輯」後，再點選「InternalNAT」，將私人 IP 位置輸入 192.168.0.5 後，點選「確定」，完成後點選「儲存」<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting12.PNG "replicationSetting12")
@@ -155,11 +155,14 @@
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting13.PNG "replicationSetting13")
 			- 查看測試移轉作業，圖示中狀態顯示順利測試移轉<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting14.PNG "replicationSetting14")
-		- 尋找並點選資源群組「serverMigrate」，您會發現您的虛擬機器名稱為「win2k16-AP-test」，代表為測試移轉的虛擬機器，第一次容錯移轉時您必須手動將基礎設施關聯，等等我們將把公用 IP 關聯至網路介面，後續再做移轉就會自動套用，請注意，您的公用 IP 與我不同<br>
+		- 尋找並點選資源群組「serverMigrate」，您會發現您的虛擬機器名稱為「win2k16-AP-test」，代表為測試移轉的虛擬機器，第一次容錯移轉時您必須手動將基礎設施關聯，等等我們將把公用 IP 「win2k16-ap-pip」關聯至網路介面，後續再做移轉就會自動套用，請注意，您的公用 IP 與我不同<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting15")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting16.PNG "replicationSetting16")
 		- 現在讓我們在瀏覽器上，輸入公用 IP，檢查是否有正常顯示，如下圖所示，確認服務正常運作!<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting17.PNG "replicationSetting17")
+		- 完成測試移轉後，請在「正在複寫的機器」頁面中，點選「...」，選擇「清除測試移轉」，勾選「測試已完成。請刪除測試虛擬機器。」，最後點選「清除測試」<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting18.PNG "replicationSetting18")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting19.PNG "replicationSetting19")
 	- 移轉 VM<br>
 	- 完成移轉<br>
 	
