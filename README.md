@@ -45,14 +45,22 @@
  - 選擇 Import Virtual Machine 匯入 Windows Server (administrator/isadmin@123)<br>
 	- 如上述步驟一致，只要改選擇win2k16-ap資料夾即可<br>
  - 前置環境作業完成<br>
+  	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImport.PNG "completeImport")	
+ 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImportAP.PNG "completeImportAP")	
+
 
 ## 遷移流程 <br>
  - 建立 Azure Migrate<br>
+	- 進入 Azure Migrate 選擇移轉目標為伺服器，點選新增工具
  	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/Create-Migrate-Tool.PNG "Create-Migrate-Tool")	
- 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateProject.PNG "addMigrateProject")	
- 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addassessment.PNG "addassessment")	
- 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateTool.PNG "addMigrateTool")	
- 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")	
+ 	- 新增移轉專案 AzureMigrateProject 地理選擇日本
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateProject.PNG "addMigrateProject")	
+	- 選擇 Azure Migrate: Server Assessment
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addassessment.PNG "addassessment")	
+ 	- 選擇 Azure Migrate: Server Migration
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addMigrateTool.PNG "addMigrateTool")	
+ 	- 檢閱無誤後，點選新增工具
+	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/addcomplete.PNG "addcomplete")	
  - 準備評估 Hyper-V VM<br>
  - 準備遷移 Hyper-V VM<br>
 
