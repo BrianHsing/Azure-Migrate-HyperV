@@ -135,9 +135,22 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting4.PNG "replicationSetting4")
 		- 此步驟不須選擇<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting5.PNG "replicationSetting5")
-		- 開始執行複寫<br>
+		- 按下複寫按鈕，開始執行複寫<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting6.PNG "replicationSetting6")
 	- 執行測試移轉<br>
+		- 在移轉工具 Azure Migrate: Server Migrate 窗格中選擇「正在複寫的伺服器」<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting7.PNG "replicationSetting7")
+		- 查看win2k16-ap複寫狀態並點選<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting8.PNG "replicationSetting8")
+		- 查看win2k16-ap複寫詳細資訊<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting9.PNG "replicationSetting9")
+		- 點選一般類別中的「計算與網路」<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting10.PNG "replicationSetting10")
+		- 因為模擬環境中win2k16-ap的內部靜態 IP 為 192.168.0.5，再不變更OS內的網路設定下，必須要設定移轉後的靜態 IP<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting11.PNG "replicationSetting11")
+		- 點選「編輯」後，再點選「InternalNAT」，將私人 IP 位置輸入 192.168.0.5 後，點選「確定」，完成後點選「儲存」<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting12.PNG "replicationSetting12")
+
 	- 移轉 VM<br>
 	- 完成移轉<br>
 	
