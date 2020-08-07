@@ -76,7 +76,7 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama4.PNG "importama4")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/importama5.PNG "importama5")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeimportama.PNG "completeimportama")
-	- 初始化設定 AzureMigrateAppliance_v3.20.05.27
+	- 初始化設定 AzureMigrateAppliance_v3.20.05.27 (administrator/isadmin@123)
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/licenseTerms.PNG "licenseTerms")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/customizeSetting.PNG "customizeSetting")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/ama-networking-setting.PNG "ama-networking-setting")
