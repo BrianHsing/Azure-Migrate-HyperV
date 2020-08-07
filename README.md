@@ -100,13 +100,18 @@
 			- 建立評定<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentCreate.PNG "assessmentCreate")
 		- 檢閱評量<br>
-			- Azure 移轉整備程度<br>
-			- 每月成本預估<br>
-			- 每月儲存體成本預估<br>
+			- 在伺服器項目中，選擇評定結果<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentView.PNG "assessmentView")
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentView2.PNG "assessmentView2")
+			- 觀察此評定整備程度、每月的成本預估、儲存體成本預估<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentView3.PNG "assessmentView3")
+			- 選擇觀察特定虛擬機器的整備程度，點選win2k16-ap<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentView4.PNG "assessmentView4")
+			- 觀察win2k16-ap的規格推薦、每月成本預估、目前使用量等詳細資訊<br>
+			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/assessmentView5.PNG "assessmentView5")
  - 準備移轉 Hyper-V VM<br>
-	- 下載並安裝 AzureSiteRecoveryProvider<br>
-	- 下載 Register Key<br>
-	- 設定 AzureSiteRecoveryProvider<br>
+	- 下載 Register Key 並安裝設定 AzureSiteRecoveryProvider、<br>
+	- 完成註冊<br>
 	- 複寫 Hyper-V VM<br>
 	- 執行測試移轉<br>
 	- 移轉 VM<br>
