@@ -155,7 +155,7 @@
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting13.PNG "replicationSetting13")
 			- 查看測試移轉作業，圖示中狀態顯示順利測試移轉<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting14.PNG "replicationSetting14")
-		- 尋找並點選資源群組「serverMigrate」，您會發現您的虛擬機器名稱為「win2k16-AP-test」，代表為測試移轉的虛擬機器，第一次容錯移轉時您必須手動將基礎設施關聯，等等我們將把公用 IP 「win2k16-ap-pip」關聯至網路介面，後續再做移轉就會自動套用，請注意，您的公用 IP 與我不同<br>
+		- 尋找並點選資源群組「serverMigrate」，您會發現您的虛擬機器名稱為「win2k16-AP-test」，代表為測試移轉的虛擬機器，您必須手動將基礎設施關聯，等等我們將把公用 IP 「win2k16-ap-pip」關聯至網路介面，請注意，您的公用 IP 與我不同<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting15.PNG "replicationSetting15")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting16.PNG "replicationSetting16")
 		- 現在讓我們在瀏覽器上，輸入公用 IP，檢查是否有正常顯示，如下圖所示，確認服務正常運作!<br>
@@ -164,6 +164,24 @@
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting18.PNG "replicationSetting18")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting20.PNG "replicationSetting20")
 	- 移轉 VM<br>
+		- 在移轉工具 Azure Migrate: Server Migrate 窗格中選擇「移轉」<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting21.PNG "replicationSetting21")
+		- 選取 「是」 可關閉機器並執行規劃的移轉，而完全不會遺失資料，如果您選擇不關閉虛擬機器，將會在移轉前執行最終同步，但不會複寫在開始最終同步後機器上進行的所有變更。<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting22.PNG "replicationSetting22")
 	- 完成移轉<br>
-	
+		- 查看計劃內的容錯移轉移轉作業<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting23.PNG "replicationSetting23")
+		- 尋找並點選資源群組「serverMigrate」，您會發現您的虛擬機器名稱為「win2k16-AP」，代表為移轉的虛擬機器，您必須手動將基礎設施關聯，等等我們將把公用 IP 「win2k16-ap-pip」關聯至網路介面，請注意，您的公用 IP 與我不同<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting24.PNG "replicationSetting24")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting16.PNG "replicationSetting16")
+		- 現在讓我們在瀏覽器上，輸入公用 IP，檢查是否有正常顯示，如下圖所示，確認服務正常運作!<br>
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting17.PNG "replicationSetting17")
+		- Hyper-V manager 上的 win2k16-ap 確實已關機
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/replicationSetting25.PNG "replicationSetting25")
+## 移轉後的最佳做法 <br>
 
+恭喜您已經完成了，但移轉後還是有些工作要做，後續工作您可以參考官方文件說明「移轉後的最佳做法」<br>
+https://docs.microsoft.com/zh-tw/azure/migrate/tutorial-migrate-hyper-v#post-migration-best-practices
+
+**參考來源**
+https://docs.microsoft.com/zh-tw/azure/migrate/tutorial-prepare-hyper-v
