@@ -84,7 +84,7 @@
 		- Set up prerequisites，勾選 Accepted license terms，輸入 Credentials (administrator/isadmin@123)
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/windowsSecurity.PNG "windowsSecurity")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completePrep.PNG "completePrep")
-		- Register with Azure Migrate
+		- Register with Azure Migrate<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/registerAM.PNG "registerAM")
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/providehost.PNG "providehost")
 		- Provide Hyper-V hosts details
