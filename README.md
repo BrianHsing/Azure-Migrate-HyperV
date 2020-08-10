@@ -47,7 +47,7 @@
  - 前置環境作業完成<br>
   	- 確認已建立兩台 VM<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImport.PNG "completeImport")	
- 	- 確認能正常顯示 Apache、IIS Web<br>
+ 	- 確認能正常顯示 Apache (192.168.0.4)、IIS Web (192.168.0.5)<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImportAP.PNG "completeImportAP")	
 
 
