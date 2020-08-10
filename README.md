@@ -123,7 +123,7 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateRegister.PNG "migrateRegister")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateNonproxy.PNG "migrateNonproxy")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateFinish.PNG "migrateFinish")
-	- 點選完成註冊按鈕完成註冊<br>
+	- 點選「完成註冊」按鈕，完成註冊<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/migrateFinishenroll.PNG "migrateFinishenroll")
 	- 複寫 Hyper-V VM<br>
 		- 在移轉工具 Azure Migrate: Server Migrate窗格中選擇複寫<br>
