@@ -9,7 +9,7 @@
 ## 環境準備 <br>
  - Azure 訂用帳戶、Azure 訂用帳戶擁有者權限<br>
  - 下載 Single-Hyper-V.ps1<br>
-	- 此命令會建立D8sv3的虛擬機器、虛擬網路、堡壘<br>
+	- 此命令會建立 D8sv3 的虛擬機器、虛擬網路、堡壘<br>
  - 下載 Azure-Migrate-Basic.ps1<br>
 	- 此命令會建立移轉後虛擬機器的虛擬網路、公用 IP、網路安全性群組，後續會在移轉流程中使用<br>
  - 使用 Single-Hyper-V.ps1 佈署 Hyper-V Server <br> 
@@ -43,7 +43,7 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import4.PNG "import4")	
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/import5.PNG "import5")	
  - 選擇 Import Virtual Machine 匯入 Windows Server (administrator/isadmin@123)<br>
-	- 如上述步驟一致，只要改選擇win2k16-ap資料夾即可<br>
+	- 如上述步驟一致，只要改選擇 win2k16-ap 資料夾即可<br>
  - 前置環境作業完成<br>
   	- 確認已建立兩台 VM<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate-Hand-on-Lab/blob/master/image/completeImport.PNG "completeImport")	
