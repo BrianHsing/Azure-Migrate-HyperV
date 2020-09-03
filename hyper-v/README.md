@@ -79,7 +79,7 @@
 	- 初始化設定 AzureMigrateAppliance_v3.20.05.27 (administrator/isadmin@123)<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/licenseTerms.PNG "licenseTerms")
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/customizeSetting.PNG "customizeSetting")
-	- 手動設定網路介面 (192.168.0.100/255.255.255.0/192.168.0.1/8.8.8.8)
+	- 手動設定網路介面 (192.168.0.100/255.255.255.0/192.168.0.1/8.8.8.8)<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/ama-networking-setting.PNG "ama-networking-setting")
 	- 手動設定 C:\Windows\System32\drivers\etc\host，輸入 192.168.0.1 hyperv，儲存此文件
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/ama-dns-setting.PNG "ama-dns-setting")
