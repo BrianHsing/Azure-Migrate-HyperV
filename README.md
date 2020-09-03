@@ -10,4 +10,5 @@
 	- [以代理程式為基礎](https://github.com/BrianHsing/Azure-Migrate/tree/master/vmware-agent)<br>
 		- VMWare vCenter 非必要<br>
 		- 使用 Azure Migrate：伺服器移轉，佈署複寫設備，在每台需要移轉的 VMs 中安裝代理程式，進行複寫、移轉<br>
+		- 如果原先 VMs 已佈署 Azure Site Recovery 則無法使用<br>
  - Migrate AWS VMs<br>
