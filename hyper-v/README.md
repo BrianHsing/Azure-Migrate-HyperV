@@ -113,7 +113,7 @@
 			- 觀察win2k16-ap的規格推薦、每月成本預估、目前使用量等詳細資訊<br>
 			![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentView5.PNG "assessmentView5")
  - 準備移轉 Hyper-V VM<br>
-	- 在移轉工具 Azure Migrate: Server Migrate窗格中選擇「發現」
+	- 在移轉工具 Azure Migrate: Server Migrate窗格中選擇「發現」<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateDiscovery.PNG "migrateDiscovery")
 	- 您的電腦虛擬化了嗎?選擇「是，使用 Hyper-V」，目標區域選擇「日本東部」，勾選確認移轉目標區域為"日本東部"<br>
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateCreateResorce.PNG "migrateCreateResorce")
