@@ -85,7 +85,7 @@
 	![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/ama-dns-setting.PNG "ama-dns-setting")
 	- Set up discovery for Azure Migrate<br>
 		- Set up prerequisites，勾選 Accepted license terms，輸入 Credentials (administrator/isadmin@123)<br>
-		![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/windowsSecurity.PNG "windowsSecurity")
+		![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/windowsSecurity.PNG "windowsSecurity")<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/completePrep.PNG "completePrep")
 		- Register with Azure Migrate<br>
 		![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerAM.PNG "registerAM")
