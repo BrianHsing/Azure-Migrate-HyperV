@@ -53,11 +53,12 @@
 
 ## 移轉流程 <br>
  - [Lab1 - 建立 Azure Migrate](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab1.md)<br>
- - [Lab2 - 準備評估 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab2.md)<br>
- - [Lab3 - 準備移轉 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab3.md)<br>
- - [Lab4 - 複寫 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab4.md)<br>
- - [Lab5 - 執行測試移轉](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab5.md)<br>
- - [Lab6 - 移轉 VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab6.md)<br>
+ - [Lab2 - 發現 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab2.md)<br>
+ - [Lab3 - 評定 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab3.md)<br>
+ - [Lab4 - 移轉 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab4.md)<br>
+ - [Lab5 - 複寫 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab5.md)<br>
+ - [Lab6 - 執行測試移轉](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab6.md)<br>
+ - [Lab7 - 移轉 VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab7.md)<br>
 		
 ## 移轉後的最佳做法 <br>
 

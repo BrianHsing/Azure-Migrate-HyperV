@@ -11,4 +11,4 @@
 - 檢閱無誤後，點選新增工具建立<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/addcomplete.PNG "addcomplete")<br>
 
- 前往 [Lab2 - 準備評估 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab2.md)<br>
+ 前往 [Lab2 - 發現 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab2.md)<br>

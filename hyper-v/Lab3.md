@@ -1,16 +1,22 @@
-# Lab3 - 準備移轉 Hyper-V VM
+# Lab3 - 評定 Hyper-V VM
 
-- 在移轉工具 Azure Migrate: Server Migrate窗格中選擇「發現」<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateDiscovery.PNG "migrateDiscovery")<br>
-- 您的電腦虛擬化了嗎?選擇「是，使用 Hyper-V」，目標區域選擇「日本東部」，勾選確認移轉目標區域為"日本東部"<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateCreateResorce.PNG "migrateCreateResorce")<br>
-- 下載 Register Key 並安裝設定 AzureSiteRecoveryProvider<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateDownload.PNG "migrateDownload")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateInstall.PNG "migrateInstall")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateRegister.PNG "migrateRegister")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateNonproxy.PNG "migrateNonproxy")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateFinish.PNG "migrateFinish")<br>
-- 點選「完成註冊」按鈕，完成註冊<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/migrateFinishenroll.PNG "migrateFinishenroll")<br>
-
-前往 [Lab4 - 複寫 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab4.md)<br>
+- 設定評估<br>
+- 在伺服器項目中，選擇「評定」<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentClick.PNG "assessmentClick")<br>
+- 評定基本設定，輸入評定名稱「ServerAssessment」。點選「檢視全部」，更改目標位置為「日本東部」，保留的執行個體更改為「沒有任何保留的執行個體」，全選所有虛擬機器規格<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentBasic.PNG "assessmentBasic")<br>
+- 輸入群組名稱「ServerGroup」，勾選 linux-ap、Win2k16-AP<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentSelect.PNG "assessmentSelect")<br>
+- 建立評定<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentCreate.PNG "assessmentCreate")<br>
+- 檢閱評量<br>
+- 在伺服器項目中，選擇評定結果<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentView.PNG "assessmentView")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentView2.PNG "assessmentView2")<br>
+- 觀察此評定整備程度、每月的成本預估、儲存體成本預估<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentView3.PNG "assessmentView3")<br>
+- 選擇觀察特定虛擬機器的整備程度，點選win2k16-ap<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentView4.PNG "assessmentView4")<br>
+- 觀察win2k16-ap的規格推薦、每月成本預估、目前使用量等詳細資訊<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentView5.PNG "assessmentView5")<br>
+前往 [Lab4 - 移轉 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab4.md)<br>
