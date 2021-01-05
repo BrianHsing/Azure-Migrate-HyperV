@@ -11,6 +11,6 @@
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/replicationSetting16.PNG "replicationSetting16")<br>
 - 現在讓我們在瀏覽器上，輸入公用 IP，檢查是否有正常顯示，如下圖所示，確認服務正常運作!<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/replicationSetting17.PNG "replicationSetting17")<br>
-- Hyper-V manager 上的 win2k16-ap 確實已關機
+- Hyper-V manager 上的 win2k16-ap 確實已關機<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/replicationSetting25.PNG "replicationSetting25")<br>
 返回 [Azure Migration : 伺服器移轉工具， 將 Hyper-V VM 遷移至 Azure](https://github.com/BrianHsing/Azure-Migrate/tree/master/hyper-v)<br>
