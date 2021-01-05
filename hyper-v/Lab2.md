@@ -28,7 +28,6 @@
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate2.png "registerwithazuremigrate2")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate3.png "registerwithazuremigrate3")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate4.png "registerwithazuremigrate4")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate5.png "registerwithazuremigrate5")<br>
 - Provide Hyper-V hosts details<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/managecredentials.png "managecredentials")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/managecredentials2.png "managecredentials2")<br>
