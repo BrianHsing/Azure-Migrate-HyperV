@@ -3,9 +3,9 @@
 - 設定評估<br>
 - 在伺服器項目中，選擇「評定」<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentClick.PNG "assessmentClick")<br>
-- 評定基本設定，輸入評定名稱「ServerAssessment」。點選「檢視全部」，更改目標位置為「日本東部」，保留的執行個體更改為「沒有任何保留的執行個體」，全選所有虛擬機器規格<br>
+- 評定基本設定。點選「檢視全部」，更改目標位置為「日本東部」，保留的執行個體更改為「沒有任何保留的執行個體」，全選所有虛擬機器規格<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentBasic1.PNG "assessmentBasic")<br>
-- 輸入群組名稱「ServerGroup」，勾選 linux-ap、Win2k16-AP<br>
+- 輸入評定名稱「ServerAssessment」，輸入群組名稱「ServerGroup」，勾選 linux-ap、Win2k16-AP<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentSelect1.PNG "assessmentSelect")<br>
 - 建立評定<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/assessmentCreate1.PNG "assessmentCreate")<br>
