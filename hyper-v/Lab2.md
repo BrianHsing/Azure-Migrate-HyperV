@@ -23,12 +23,14 @@
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/settingweb2.png "settingweb2")<br>
 - Set up prerequisites<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/Setupprerequisites.png "Setupprerequisites")<br>
-
 - Register with Azure Migrate<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerAM.PNG "registerAM")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/providehost.PNG "providehost")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate.png "registerwithazuremigrate")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate2.png "registerwithazuremigrate2")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate3.png "registerwithazuremigrate3")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate4.png "registerwithazuremigrate4")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate5.png "registerwithazuremigrate5")<br>
 - Provide Hyper-V hosts details<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/addhosts.PNG "addhosts")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/completeAM.PNG "completeAM")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/managecredentials.png "managecredentials")<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/managecredentials2.png "managecredentials2")<br>
 
 [Lab3 - 評定 Hyper-V VM](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/Lab3.md)<br>
