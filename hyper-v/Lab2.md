@@ -21,9 +21,9 @@
 - Set up discovery for Azure Migrate<br>
 - Browser https://localhost:44368<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/settingweb2.png "settingweb2")<br>
-- Set up prerequisites，勾選 Accepted license terms，輸入 Credentials (administrator/isadmin@123)<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/windowsSecurity.PNG "windowsSecurity")<br>
-![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/completePrep.PNG "completePrep")<br>
+- Set up prerequisites<br>
+![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/Setupprerequisites.png "Setupprerequisites")<br>
+
 - Register with Azure Migrate<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerAM.PNG "registerAM")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/providehost.PNG "providehost")<br>
