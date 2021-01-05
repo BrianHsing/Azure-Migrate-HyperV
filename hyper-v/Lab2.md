@@ -18,7 +18,6 @@
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/ama-networking-setting.PNG "ama-networking-setting")<br>
 - 手動設定 C:\Windows\System32\drivers\etc\host，輸入 192.168.0.1 hyperv，儲存此文件
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/ama-dns-setting.PNG "ama-dns-setting")<br>
-- Set up discovery for Azure Migrate<br>
 - Browser https://localhost:44368<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/settingweb2.png "settingweb2")<br>
 - Set up prerequisites<br>
@@ -28,7 +27,7 @@
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate2.png "registerwithazuremigrate2")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate3.png "registerwithazuremigrate3")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate4.png "registerwithazuremigrate4")<br>
-- Provide Hyper-V hosts details<br>
+- Provide Hyper-V hosts details (輸入 hyperv 的驗證帳密 hyadmin/hyadmin@1234)<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/managecredentials.png "managecredentials")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/managecredentials2.png "managecredentials2")<br>
 
