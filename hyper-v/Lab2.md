@@ -23,7 +23,7 @@
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/settingweb2.png "settingweb2")<br>
 - Set up prerequisites<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/Setupprerequisites.png "Setupprerequisites")<br>
-- Register with Azure Migrate<br>
+- Register with Azure Migrate (將剛儲存的金鑰填入，並登入您的帳號)<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate.png "registerwithazuremigrate")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate2.png "registerwithazuremigrate2")<br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/hyper-v/image/registerwithazuremigrate3.png "registerwithazuremigrate3")<br>
