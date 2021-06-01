@@ -6,3 +6,5 @@
  - Migrate VMware VMs<br>
 
  - Migrate AWS VMs<br>
+
+ - VMware VM 災難備援至 Azure<br>
