@@ -7,4 +7,4 @@
 
  - Migrate AWS VMs<br>
 
- - VMware VM 災難備援至 Azure<br>
+ - [VMware VM 災難備援至 Azure](https://github.com/BrianHsing/Azure-Migrate/tree/master/vmware-asr)<br>
