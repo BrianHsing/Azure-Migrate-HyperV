@@ -7,7 +7,7 @@
     - 設定複寫，指定來源複寫目標，建立複寫原則，在這個步驟可以定義復原點的建立頻率、應用程式一致快照集的頻率與指定每個復原點的保留時間。<br>
     - 執行災害復原演練，可驗證您複寫策略未遺失資料以及實際 RTO 計算。<br>
     - 設定流量管理員與應用程式閘道，透過流量管理員自動切換流量路由，並且透過應用程式閘道保護現有對外服務<br>
-    - 
+  
 ## 環境架構 <br>
 ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/asr-architecture.png "asr-architecture")
 
