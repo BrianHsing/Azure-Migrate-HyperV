@@ -10,6 +10,7 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/vnet-4.png "vnet-4")<br>
 - 在「BastionHost」項目中點選啟用，輸入「Bastion 名稱」、「AzureBastionSubnet 位置空間」，建立新的「公用 IP 位址」。<br>
   > **Tips.子網路必須命名為 AzureBastionSubnet，子網路遮罩至少必須是 /27 或更大。** <br>
+  
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/vnet-5.png "vnet-5")<br>
 - 點選「建立」，等待建立完成<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/vnet-6.png "vnet-6")<br>
