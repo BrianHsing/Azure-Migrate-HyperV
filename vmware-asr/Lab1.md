@@ -13,4 +13,4 @@
 - 看到下圖畫面代表您已完成 Lab1<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/recoveryservicevault-6.png "recoveryservicevault-6")<br>
 
- 前往 [建立虛擬網路與堡壘機](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab2.md)<br>
+ 前往 [Lab2 - 建立虛擬網路與堡壘機](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab2.md)<br>
