@@ -17,4 +17,4 @@
 - 看到下圖畫面代表您已完成 Lab2<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/vnet-7.png "vnet-7")<br>
 
- 前往 [Lab3 - 佈署 Configuration Servers](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab3.md)<br>
+ 前往 [Lab3 - 佈署適用於 VMware 的基礎結構](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab3.md)<br>

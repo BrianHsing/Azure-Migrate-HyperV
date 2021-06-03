@@ -1,4 +1,4 @@
-# Lab3 - 佈署 Configuration Servers
+# Lab3 - 佈署適用於 VMware 的基礎結構
 
 - 選擇稍早建立的復原服務保存庫「asr-vault」，在功能列管理類別中，選擇「Site Recovery 基礎結構」<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-1.png "deployconfigurationserver-1")<br>
@@ -51,11 +51,19 @@
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-25.png "deployconfigurationserver-25")<br>
   - 確認完成所有項目後，點選完成設定，此步驟會需要等待數分鐘<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-26.png "deployconfigurationserver-26")<br>
-    
-  - 確認出現下圖後，代表已完成此 Lab<br>
+  - 確認出現下圖後，代表已完成<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-27.png "deployconfigurationserver-27")<br>
   - 回到 Azure 入口網站，您可以看到設定伺服器已連接<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-28.png "deployconfigurationserver-28")<br>
+- 左邊功能欄位點選「複寫原則」，點選紅框新增複寫原則<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-1.png "ReplicationPolicies-1")<br>
+- 輸入複寫原則名稱、RPO 閾值 (以分鐘為單位)、復原點保留 (小時)、應用程式一致性快照集的頻率 (小時)，RPO 閾值在 VMware 來源類型最低是 15 分鐘，而每個復原點保留時間最長為 72 小時，而如果您想要確定 VM 在啟動時不會損毀或遺失資料，您可以設定應用程式一致性，頻率您可以設定 1-12 小時。
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-2.png "ReplicationPolicies-2")<br>
+- 完成後您可以在 Azure 入口網站看到自動建立了另一條複寫原則，用來複寫未來容錯移轉至 Azure VM 的複寫原則<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-3.png "ReplicationPolicies-3")<br>
+- 點選複寫原則，本範例點選剛剛所建立的 replica-policy，與 Configuration Servers 建立關聯，完成後會自動將另一個複寫原則進行關聯<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-4.png "ReplicationPolicies-4")<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-5.png "ReplicationPolicies-5")<br>
 
  前往 [Lab4 - 準備基礎結構](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
 
