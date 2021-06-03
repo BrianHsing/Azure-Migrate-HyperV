@@ -33,26 +33,27 @@
   - 選擇您建立「Recovery Services 保存庫」所在的訂用帳戶 (Tenant)，完成驗證後，選擇 Reboot Now<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
   - 重新啟動完成後，進入桌面會自動開啟 Azure Site Recovery deployment 網頁，您可以透過上方功能列更改成中文(繁體)<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-16.png "deployconfigurationserver-16")<br>
   - 設定您要連線至內部佈署的網路介面卡以及連線至 Azure 元件的網路介面卡，會透過 9443 進行資料傳輸，本範例均使用同一張網路介面卡操作，設定完成後，點選儲存與繼續<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-17.png "deployconfigurationserver-17")<br>
   - 選擇復原保存庫，您需要登入 Azure AD 帳號，並選擇訂用帳戶、資源群組以及您建立的復原保存庫。過程中您需要允許所需的權限要求。<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-18.png "deployconfigurationserver-18")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-19.png "deployconfigurationserver-19")<br>
   - 安裝所需要的 MySQL，完成安裝後，請點選繼續<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-20.png "deployconfigurationserver-20")<br>
   - 驗證設備設定，您可能會在正在檢查靜態 IP 位址會有驚嘆號，您只需要將內建網路卡更改為靜態 IP 位址即可<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-22.png "deployconfigurationserver-21")<br>
   - 您必須設定一組帳號，讓 Configuration Servers 能夠自動的探索 vCenter / vSphere Server <br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-22.png "deployconfigurationserver-22")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-23.png "deployconfigurationserver-23")<br>
   - 您必須也設定一組帳號，讓 Configuration Servers 能夠在 VMware VM 中自動安裝 Azure Site Recovery 行動服務<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-24.png "deployconfigurationserver-24")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-25.png "deployconfigurationserver-25")<br>
   - 確認完成所有項目後，點選完成設定，此步驟會需要等待數分鐘<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-26.png "deployconfigurationserver-26")<br>
     
   - 確認出現下圖後，代表已完成此 Lab<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-27.png "deployconfigurationserver-27")<br>
 
  前往 [Lab4 - 準備基礎結構](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
 
