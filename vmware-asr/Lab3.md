@@ -4,7 +4,7 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-1.png "deployconfigurationserver-1")<br>
 - 左邊功能欄位點選「Configuration Servers」，點選紅框，新增伺服器<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-2.png "deployconfigurationserver-2")<br>
-- 按照指示，逐步操作<br>
+- 稍後會按照以下指示，逐步帶著大家操作<br>
   > **Tips.VMware vSphere/vCenter 版本支援 5.5 以上，Configuration Servers 需要規格為 8 CPU、16 GB RAM、600 GB Disk、NIC 必須使用 VMXNET3，一台 Configuration Servers 最多可以複寫 550 VM** <br>
 
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-3.png "deployconfigurationserver-3")<br>
@@ -54,6 +54,8 @@
     
   - 確認出現下圖後，代表已完成此 Lab<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-27.png "deployconfigurationserver-27")<br>
+  - 回到 Azure 入口網站，您可以看到設定伺服器已連接<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-28.png "deployconfigurationserver-28")<br>
 
  前往 [Lab4 - 準備基礎結構](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
 
