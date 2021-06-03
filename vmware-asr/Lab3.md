@@ -65,5 +65,5 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-4.png "ReplicationPolicies-4")<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-5.png "ReplicationPolicies-5")<br>
 
- 前往 [Lab4 - 準備基礎結構](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
+ 前往 [Lab4 - 啟用 Site Recovery](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
 

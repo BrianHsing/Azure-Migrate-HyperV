@@ -24,7 +24,7 @@
 - [Lab1 - 建立復原保存庫](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab1.md)<br>
 - [Lab2 - 建立虛擬網路與堡壘機](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab2.md)<br>
 - [Lab3 - 佈署適用於 VMware 的基礎結構](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab3.md)<br>
-- [Lab4 - 準備基礎結構](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
+- [Lab4 - 啟用 Site Recovery](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
 - [Lab5 - 啟用複寫](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab5.md)<br>
 - [Lab6 - 執行災難復原演練](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab6.md)<br>
 - [Lab7 - 設定流量管理員與應用程式閘道](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab7.md)<br>
