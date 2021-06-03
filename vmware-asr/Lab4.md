@@ -22,4 +22,14 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-9.png "replicate-9")<br>
 - 點進來複寫中虛擬機器 AP01，可以看到基礎結構拓樸已及詳細狀態，點選左欄功能列選取「計算與網路」。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-10.png "replicate-10")<br>
-- 
+- 因為需要容錯移轉後與內部部署網路設定的一致性，必須將設定靜態 IP 位址改成 172.16.10.9。另外 ADDS01 也會需要設定靜態 IP 位址，點選「編輯」<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-11.png "replicate-11")<br>
+- 點選內部部署網路名稱<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-12.png "replicate-12")<br>
+- 容錯移轉設定中的私人 IP 位址請填入「172.16.10.9」，完成後選擇確定<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-13.png "replicate-13")<br>
+- 「儲存」設定。完成此步驟後 ADDS01 也會做一樣的設定，此步驟就不另外呈現<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-14.png "replicate-14")<br>
+  
+
+   前往 [Lab5 - 執行災難復原演練](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab5.md)<br>

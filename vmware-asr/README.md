@@ -28,3 +28,4 @@
 - [Lab5 - 執行災難復原演練](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab5.md)<br>
 - [Lab6 - 設定流量管理員與應用程式閘道](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab6.md)<br>
 - [Lab7 - 正式容錯移轉至 Azure](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab7.md)<br>
+
