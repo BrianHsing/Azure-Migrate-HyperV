@@ -6,6 +6,7 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-2.png "deployconfigurationserver-2")<br>
 - 按照指示，逐步操作<br>
   > **Tips.VMware vSphere/vCenter 版本支援 5.5 以上，Configuration Servers 需要規格為 8 CPU、16 GB RAM、600 GB Disk、NIC 必須使用 VMXNET3，一台 Configuration Servers 最多可以複寫 550 VM** <br>
+  
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-3.png "deployconfigurationserver-3")<br>
   - 下載 OVF 範本，您會下載一個大約 21.4 GB 的 ova 檔案<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-4.png "deployconfigurationserver-4")<br>
