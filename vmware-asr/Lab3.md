@@ -42,7 +42,7 @@
   - 安裝所需要的 MySQL，完成安裝後，請點選繼續<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-20.png "deployconfigurationserver-20")<br>
   - 驗證設備設定，您可能會在正在檢查靜態 IP 位址會有驚嘆號，您只需要將內建網路卡更改為靜態 IP 位址即可<br>
-    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-22.png "deployconfigurationserver-21")<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-21.png "deployconfigurationserver-21")<br>
   - 您必須設定一組帳號，讓 Configuration Servers 能夠自動的探索 vCenter / vSphere Server <br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-22.png "deployconfigurationserver-22")<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-23.png "deployconfigurationserver-23")<br>
