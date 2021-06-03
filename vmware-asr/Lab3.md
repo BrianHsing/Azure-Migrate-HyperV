@@ -22,4 +22,14 @@
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-9.png "deployconfigurationserver-9")<br>
   - 完成上述後，點選完成，開始匯入。<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-10.png "deployconfigurationserver-10")<br>
+  - 完成匯入後，開啟「ASRCS」虛擬機器，會看到 License terms，這一步點選 Accept<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-11.png "deployconfigurationserver-11")<br>
+  - 輸入管理員密碼，並且登入<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-12.png "deployconfigurationserver-12")<br>
+  - 進入桌面環境後，精靈會自動運作，會先請您輸入電腦名稱，此範例使用「ASRCS」，完成後點選 Next<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-13.png "deployconfigurationserver-13")<br>
+  - 登入您的 Azure AD 帳號，這步驟會驗證您的帳號權限，此範例的 Azure AD 登入帳號擁有訂用帳戶的擁有人權限，完成後選擇 Next<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-14.png "deployconfigurationserver-14")<br>
+  - 選擇您建立「Recovery Services 保存庫」所在的訂用帳戶 (Tenant)，完成驗證後，選擇 Reboot Now<br>
+    ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-15.png "deployconfigurationserver-15")<br>
 
