@@ -57,7 +57,7 @@
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/deployconfigurationserver-28.png "deployconfigurationserver-28")<br>
 - 左邊功能欄位點選「複寫原則」，點選紅框新增複寫原則<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-1.png "ReplicationPolicies-1")<br>
-- 輸入複寫原則名稱、RPO 閾值 (以分鐘為單位)、復原點保留 (小時)、應用程式一致性快照集的頻率 (小時)，RPO 閾值在 VMware 來源類型最低是 15 分鐘，而每個復原點保留時間最長為 72 小時，而如果您想要確定 VM 在啟動時不會損毀或遺失資料，您可以設定應用程式一致性，頻率您可以設定 1-12 小時。
+- 輸入複寫原則名稱、RPO 閾值 (以分鐘為單位)、復原點保留 (小時)、應用程式一致性快照集的頻率 (小時)，RPO 閾值在 VMware 來源類型最低是 15 分鐘，而每個復原點保留時間最長為 72 小時，而如果您想要確定 VM 在啟動時不會損毀或遺失資料，您可以設定應用程式一致性，頻率您可以設定 1-12 小時。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-2.png "ReplicationPolicies-2")<br>
 - 完成後您可以在 Azure 入口網站看到自動建立了另一條複寫原則，用來複寫未來容錯移轉至 Azure VM 的複寫原則<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/ReplicationPolicies-3.png "ReplicationPolicies-3")<br>
