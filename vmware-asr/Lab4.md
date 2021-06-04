@@ -35,7 +35,7 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-14.png "replicate-14")<br>
 - 因為有建立複寫群組，所以必須再設定復原方案，選擇稍早建立的復原服務保存庫「asr-vault」，在功能列管理類別中，選擇「Recovery Plan (Site Recovery)」，並點選紅框建立「復原方案」<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-15.png "replicate-15")<br>
-- 輸入復原方案名稱、選擇來源 ASRCS、目標選擇 Microsoft Azure、部署模型選擇 Resource Manager、並選取複寫群組 relicate-group，完成後點選建立。
+- 輸入復原方案名稱、選擇來源 ASRCS、目標選擇 Microsoft Azure、部署模型選擇 Resource Manager、並選取複寫群組 relicate-group，完成後點選建立。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-16.png "replicate-16")<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/replicate-17.png "replicate-17")<br>
 - 完成後即會出現您剛建立的副援方案 restore-plan。<br>
