@@ -31,7 +31,7 @@
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-4.png "trafficmanager-4")<br>
 - 點選新增端點後，會看到新增端點頁籤，選擇外部端點類型，輸入名稱 asr-waf-ip，在完整網域名稱或 IP 欄位填入剛剛所記錄的公用位址 asr-waf-pip 的 IP 位址，優先順序填入 1。另外再新增一個端點，這個時候會看到您只能選擇使用外部端點，名稱填入 onprem-pip，填入內部部署的公用 IP 位址，優先順序輸入 2。<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-5-1.png "trafficmanager-5-1")<br>
-  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-5-1.png "trafficmanager-5")<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-5.png "trafficmanager-5")<br>
 - 到 DNS 服務供應商更改 DNS 紀錄，新增一筆 CNAME，主機位置輸入 demo，指向 asr0604.trafficmanager.net<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-6.png "trafficmanager-6")<br>
 - 開啟瀏覽器輸入 demo.brianhsing.fun/wordpress 確認網頁是否正常顯示<br>
