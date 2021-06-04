@@ -43,6 +43,6 @@
 - 使用 NSLookup 確認對外 IP 位址確實指向內部部署<br>
   ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-9.png "trafficmanager-9")<br>
 - 實際發生災難時，會觀察到雖然 onprem-pip 優先順序比較高，但監視狀態為「已降級」。這樣就會將流量往次優先順序的 asr-waf-pip 路由。<br>
-  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-10.png "trafficmanager-10")<br>
+  ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/trafficmanager-11.png "trafficmanager-11")<br>
 
  前往 [Lab7 - 清除測試容錯移轉](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab7.md)<br>
