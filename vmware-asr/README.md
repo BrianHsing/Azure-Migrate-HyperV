@@ -14,7 +14,7 @@
   - 模擬企業內部使用 VMware 虛擬化平台 (6.7 U3)，擁有兩台 VM，角色分別為網域控制站 (ADDS01) 與對外網頁服務 (AP01)，AP01 VM 有加入至網域控制站。<br>
   - 內部使用網段為 172.16.10.0/24。<br>
   - ADDS01 內部 IP 為 172.16.10.10。<br>
-  - AP01 內部 IP 為 172.16.10.9，對外服務網址為 demo.brianhsing.fun/wordpress。<br>
+  - AP01 內部 IP 為 172.16.10.9，對外服務網址為 demo.brianhsing.fun/wordpress。外部 IP 位址為 114.32.xxx.223<br>
     ![GITHUB](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/images/demosite.png "demosite")<br>
   - VMware VM 均使用的 Windows Server 2016 Standard 評估版<br>
     https://www.microsoft.com/zh-tw/evalcenter/evaluate-windows-server-2016<br>
@@ -27,5 +27,5 @@
 - [Lab4 - 啟用複寫](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab4.md)<br>
 - [Lab5 - 執行災難復原演練](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab5.md)<br>
 - [Lab6 - 設定流量管理員與應用程式閘道](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab6.md)<br>
-- [Lab7 - 正式容錯移轉至 Azure](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab7.md)<br>
+- [Lab7 - 清除測試容錯移轉](https://github.com/BrianHsing/Azure-Migrate/blob/master/vmware-asr/Lab7.md)<br>
 
