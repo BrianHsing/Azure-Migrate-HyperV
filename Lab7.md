@@ -13,4 +13,3 @@
 ![GITHUB](image/replicationSetting17.PNG "replicationSetting17")<br>
 - Hyper-V manager 上的 win2k16-ap 確實已關機<br>
 ![GITHUB](image/replicationSetting25.PNG "replicationSetting25")<br>
-返回 [Azure Migration : 伺服器移轉工具， 將 Hyper-V VM 遷移至 Azure](https://github.com/BrianHsing/Azure-Migrate/tree/master/hyper-v)<br>
